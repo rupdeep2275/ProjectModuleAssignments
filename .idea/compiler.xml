@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="a2_consuming_rest" />
         <module name="a1_building_a_rest_api" />
       </profile>
     </annotationProcessing>
@@ -14,6 +15,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="a1_building_a_rest_api" options="-parameters" />
+      <module name="a2_consuming_rest" options="-parameters" />
     </option>
   </component>
 </project>

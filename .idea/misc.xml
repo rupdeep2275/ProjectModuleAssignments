@@ -5,6 +5,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/a1_building_a_rest_api/pom.xml" />
+        <option value="$PROJECT_DIR$/a2_consuming_rest/pom.xml" />
       </list>
     </option>
   </component>
